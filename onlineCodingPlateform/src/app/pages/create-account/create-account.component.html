@@ -1,0 +1,30 @@
+<!-- <p>create-account works!</p> -->
+<div class="container">
+    <div class="form-container">
+        <div class="title">
+            Create an Account
+        </div>
+        <form>
+            <mat-form-field appearence="outline">
+                <mat-label>Username</mat-label>
+                <input matInput>
+               </mat-form-field>
+            <mat-form-field appearence="outline">
+             <mat-label>Enter your email</mat-label>
+             <input matInput>
+            </mat-form-field>
+
+            <mat-form-field appearence="outline">
+                <mat-label>Enter your password</mat-label>
+                <input type="password" matInput>
+               </mat-form-field>
+        </form>
+        <div class="buttons-container">
+            <button  class="create-account-button" style="background-color: #30bd5a;"mat-raised-button>Create account</button>
+            
+            <p>Or</p>
+            <button routerLink="/login" mat-raised-button>Login</button>
+
+        </div>
+    </div>
+</div>
